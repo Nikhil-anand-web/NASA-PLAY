@@ -9,7 +9,8 @@
     "watch": "npm run server & npm run client",
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontBuilt": "npm run build --prefix client",
-    "deploy": "npm run build --prefix client &&  npm run watch --prefix server"
+    "deploy": "npm run build --prefix client &&  npm run watch --prefix server",
+    "i":"npm i --prefix client && npm i --prefix server && npm i"
   },
   "keywords": [],
   "author": "",
