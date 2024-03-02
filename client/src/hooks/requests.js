@@ -1,5 +1,5 @@
 
-const rootURL = "http://localhost:8002"
+const rootURL = ""
 
 async function httpGetPlanets() {
   const res = await fetch(`${rootURL}/planets/`)

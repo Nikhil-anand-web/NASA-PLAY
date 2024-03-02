@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "npm run watch --prefix server",
+    "server_dev": "npm run watch --prefix server",
+    "server_pro": "npm run start --prefix server",
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontBuilt": "npm run build --prefix client",
     "deploy": "npm run build --prefix client &&  npm run watch --prefix server",
-    "i":"npm i --prefix client && npm i --prefix server && npm i"
+    "i":"npm i --omit=dev --prefix client && npm i --omit=dev --prefix server && npm i --omit=dev"
   },
   "keywords": [],
   "author": "",
