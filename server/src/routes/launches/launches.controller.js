@@ -54,7 +54,7 @@ async function httpDeleteLaunch(req,res) {
         
     }
     return res.status(200).json({
-        success:true
+        success: true 
     })
     
 }
